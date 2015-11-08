@@ -1,0 +1,25 @@
+{
+    "name": "kofj/lass",
+    "description": "A package of SSDB for laravel.",
+    "keywords": ["SSDB", "Lass", "laravel"],
+    "require": {
+        "ssdb/phpssdb": "dev-master"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/kofj/Lass",
+    "authors": [
+        {
+            "name": "Frank Kung",
+            "email": "kfanjian@gmail.com",
+            "homepage": "http://kofj.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kofj\\Lass\\": "src"
+        }
+    }
+}
